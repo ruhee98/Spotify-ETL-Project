@@ -6,9 +6,9 @@ import requests
 from datetime import datetime
 import datetime
 
-username='1289998887'
-client_id = 'ea6b055b3b974015a8585f70ec64a127'
-client_secret = 'd0a2e88eb81d4cf1a879086f15ac0803'
+username='YOUR_USERNAME'
+client_id = 'YOUR_CLIENT_ID'
+client_secret = 'CLIENT_SECRET'
 redirect_uri = 'http://localhost:7777/callback'
 scopes = ['user-read-recently-played', 'user-top-read', 'playlist-read-collaborative', 'playlist-read-private', 'playlist-modify-public', 'playlist-modify-private']
 
